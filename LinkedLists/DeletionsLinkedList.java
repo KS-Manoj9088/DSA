@@ -59,7 +59,7 @@ public class DeletionsLinkedList extends SinglyLinkedList{
             current = current.next;
         }
         Node deletedNode  = current.next;        // // Last node to be deleted
-        current.next = null;                  // Remove the last node
+        current.next = null;                  // Remove the last node     ... here changing the last but one nodes next ponter to null.
         return deletedNode;
     }
 
