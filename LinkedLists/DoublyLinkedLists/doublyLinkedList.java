@@ -146,6 +146,5 @@ public class doublyLinkedList extends SinglyLinkedList{
         // Delete at last
         dll.deleteLast();
         dll.displayForward(); // Output: 30->20->10->40->Null
-
     }
 }
