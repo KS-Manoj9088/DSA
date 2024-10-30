@@ -1,4 +1,6 @@
 package LinkedLists.DoublyLinkedLists;
+import java.util.NoSuchElementException;
+
 import LinkedLists.SinglyLinkedList;
 
 public class doublyLinkedList extends SinglyLinkedList{
@@ -86,6 +88,38 @@ public class doublyLinkedList extends SinglyLinkedList{
         length++;
     }
 
+    public Node deleteFirst(){
+        if(isEmpty()){
+            throw new NoSuchElementException();
+        }
+        Node current = head;
+        if(head == tail){  // If only one node in the list.
+            tail = null;    
+        }
+        else{
+            head.next.prev = null;
+        }
+        head = head.next;
+        current.next = null;
+        return current;
+    }
+
+    public Node deleteLast(){
+        if(isEmpty()){
+            throw new NoSuchElementException();
+        }
+        Node current = tail;
+        if(head == tail){
+            head = null;
+        }
+        else{
+            tail.prev.next = null;
+        }
+        tail = tail.prev;
+        current.prev = null;
+        return current;
+    }
+
 
     public static void main(String[] args) {
         doublyLinkedList dll = new doublyLinkedList();
@@ -103,6 +137,15 @@ public class doublyLinkedList extends SinglyLinkedList{
 
         dll.insertAtFirst(60);
         dll.displayForward(); // Output: 60->30->20->10->40->50->Null
+
+
+        // Delete at first
+        dll.deleteFirst();
+        dll.displayForward(); // Output: 30->20->10->40->50->Null
+
+        // Delete at last
+        dll.deleteLast();
+        dll.displayForward(); // Output: 30->20->10->40->Null
 
     }
 }
