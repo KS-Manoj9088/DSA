@@ -1,0 +1,95 @@
+package Stacks;
+
+public class StacksUsingLinkedList {
+    
+    private Node top;
+    private int length;
+
+    public class Node{
+        int data;
+        Node next;
+
+        public Node(int data){
+            this.data = data;
+            this.next = null;
+        }
+    }
+
+    public StacksUsingLinkedList(){
+        this.top = null;
+        this.length = 0;
+    }
+
+    public static void main(String[] args) throws Exception{
+        StacksUsingLinkedList stacks = new StacksUsingLinkedList();
+        stacks.push(10);
+        stacks.push(20);
+        stacks.push(30);
+        stacks.push(40);
+        stacks.push(50);
+
+        stacks.disPlayStack();
+
+        System.out.println("Top element of Stack :- " +stacks.peek());
+        System.out.println("Size of Stack :- " +stacks.length());
+        System.out.println("Is Stack Empty :- " +stacks.isEmpty());
+        System.out.println("Popped element from Stack :- " +stacks.pop());
+        System.out.println("Top element of Stack :- " +stacks.peek());          // Top of stack changes after pop operation.
+
+
+    }
+
+    public int length(){
+        return this.length;
+    }
+
+    public boolean isEmpty(){
+        return length == 0;
+    }
+
+    public void push(int data){
+        Node newNode = new Node(data);
+        if(top == null){
+            top = newNode;
+        }
+        else{
+            newNode.next = top;
+            top = newNode;
+        }
+        length++;
+    }
+
+    public int pop() throws EmptyStackException{
+        int result = 0;
+        if(isEmpty()){
+            throw new EmptyStackException("Stack is Empty");
+        }
+        else{
+            result = top.data;
+            top = top.next;
+            length--;
+        }
+        return result;
+    }
+
+    public int peek() throws EmptyStackException{
+        if(isEmpty()){
+            throw new EmptyStackException("Stack is Empty");
+        }
+        return top.data;
+    }
+
+    public void disPlayStack() throws EmptyStackException{
+        if(isEmpty()){
+            throw new EmptyStackException("Stack is Empty");
+        }
+        Node temp = top;
+        while(temp != null){
+            System.out.print(temp.data + "->");
+            temp = temp.next;
+        }
+        System.out.println("null");
+    }
+
+
+}
