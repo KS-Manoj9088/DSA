@@ -26,13 +26,13 @@ public class StacksUsingLinkedList {
         stacks.push(20);
         stacks.push(30);
         stacks.push(40);
-        stacks.push(50);
+        stacks.push(50);    // 10->20->30->40->50 
 
         stacks.disPlayStack();
 
-        System.out.println("Top element of Stack :- " +stacks.peek());
-        System.out.println("Size of Stack :- " +stacks.length());
-        System.out.println("Is Stack Empty :- " +stacks.isEmpty());
+        System.out.println("Top element of Stack :- " +stacks.peek()); //50 = top of stack
+        System.out.println("Size of Stack :- " +stacks.length());      //5
+        System.out.println("Is Stack Empty :- " +stacks.isEmpty());    // false
         System.out.println("Popped element from Stack :- " +stacks.pop());
         System.out.println("Top element of Stack :- " +stacks.peek());          // Top of stack changes after pop operation.
 
