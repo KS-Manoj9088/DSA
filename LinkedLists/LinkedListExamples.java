@@ -9,6 +9,10 @@ public class LinkedListExamples {
         // Creating a linked list
         LinkedList<Integer> linkedList = new LinkedList<>();
 
+        //To know class and Sample name of java collection
+        System.out.println(linkedList.getClass());
+        System.out.println(linkedList.getClass().getName());
+
         // 1. add(E e) - Appends the specified element to the end of the list
         linkedList.add(10);
         linkedList.add(20);
