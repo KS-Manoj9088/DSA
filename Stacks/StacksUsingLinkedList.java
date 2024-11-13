@@ -1,5 +1,4 @@
 package Stacks;
-`
 public class StacksUsingLinkedList {
     
     private Node top;
@@ -59,10 +58,10 @@ public class StacksUsingLinkedList {
         length++;
     }
 
-    public int pop() throws EmptyStackException{
+    public int pop() throws Exception{
         int result = 0;
         if(isEmpty()){
-            throw new EmptyStackException("Stack is Empty");
+            throw new Exception("Stack is empty.");
         }
         else{
             result = top.data;
@@ -72,16 +71,16 @@ public class StacksUsingLinkedList {
         return result;
     }
 
-    public int peek() throws EmptyStackException{
+    public int peek() throws Exception{
         if(isEmpty()){
-            throw new EmptyStackException("Stack is Empty");
+            throw new Exception("Stack is Empty");
         }
         return top.data;
     }
 
-    public void disPlayStack() throws EmptyStackException{
+    public void disPlayStack() throws Exception{
         if(isEmpty()){
-            throw new EmptyStackException("Stack is Empty");
+            throw new Exception("Stack is Empty");
         }
         Node temp = top;
         while(temp != null){
