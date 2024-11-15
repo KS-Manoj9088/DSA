@@ -14,6 +14,6 @@ def max_product_triplet(arr):
         print("Triplet is:",triplet2)
         return max2, triplet2
     
-arr = input("Enter list values : ")
+arr = eval(input("Enter values into list : "))
 max_product_triplet(arr)
         
