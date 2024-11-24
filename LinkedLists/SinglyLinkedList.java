@@ -1,7 +1,5 @@
 package LinkedLists;
 
-
-
 public class SinglyLinkedList {
 
     public static Node head;
