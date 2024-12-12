@@ -1,0 +1,8 @@
+What is a Tree?
+1. Its a non-linear data structure used for storing data.
+2. It is a collection of nodes where each node has a value and zero or more child nodes.
+3. It is made up of nodes and edges without having any cycles.
+4. It is a data structure that can be traversed in a tree-like manner.
+5. It is a hierarchical data structure where each node has a parent node except the root node.
+6. It is a data structure that can be used to represent a file system, a database,
+or any other hierarchical data structure.
