@@ -15,4 +15,4 @@ a1, b1 = 4, 6
 solve_euclid_problem(a1, b1)
 
 a2, b2 = 17, 17
-solve_euclid_problem
+solve_euclid_problem(a2,b2)
