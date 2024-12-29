@@ -1,7 +1,7 @@
-package arrays;
+package Arrays;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 
 public class SubArraySum {
 
@@ -24,17 +24,14 @@ public class SubArraySum {
 			System.out.println(l1.get(i));
 		}
 		
-		System.out.println(Collections.min(l1));
+		int minSubArraySum = Collections.min(l1);
+        System.out.println("Minimum SubArray Sum : " + minSubArraySum);
+		int maxSubArraySum = Collections.max(l1);
+		System.out.println("Maximum SubArray Sum :"+ maxSubArraySum);
 		if(l1!=null)
 		{
 			System.out.println("true");
 		}
-		
-		
-		ArrayList<Integer> b1 = new ArrayList<Integer>();
-		//Collections.addAll(b1,a);
-		
-		
 
 	}
 
