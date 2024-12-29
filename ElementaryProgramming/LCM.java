@@ -7,8 +7,8 @@ public class LCM {
         System.out.println("Enter 2 vales to find LCM : ");
         int a = sc.nextInt();
         int b = sc.nextInt();
-        int lcm = findLCM(a, b);
-        System.out.println("The LCM of " + a + " and " + b + " is : "+lcm);
+        //int lcm = findLCM(a, b);
+        System.out.println("The LCM of " + a + " and " + b + " is : "+ (int)(a*b/GCD.findGCD(a, b)));
         sc.close();
     }
     public static int findLCM(int a, int b) {
