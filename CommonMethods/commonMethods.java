@@ -40,4 +40,14 @@ public class commonMethods{
         return max;
     }
 
+    public static int getNumLength(int num){
+        int count = 0;
+        int temp = num;
+        while(temp != 0){
+            count++;
+            temp = temp / 10;
+        }
+        return count;
+    }
+
 }
