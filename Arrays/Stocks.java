@@ -18,14 +18,12 @@ public class Stocks {
 		}
 		//System.out.println(min_cost+"........"+min_cost_index);
 		
-		int max_cost_index=0;
-        int max_cost = 0;
+		int max_cost = 0;
         for(int i = min_cost_index+1;i<prices.length;i++)
         {
             if(prices[i]>=max_cost)
             {
                 max_cost = prices[i];
-                max_cost_index=i;
             }
         }
         
