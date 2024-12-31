@@ -15,9 +15,10 @@ public class BinaryAddition {
 
             // Add the binary numbers
             String result = addBinary(binary1, binary2);
-
+            String result1 = addBinary1(binary1,binary2);
             // Output the result
             System.out.println("The sum of " + binary1 + " and " + binary2 + " is " + result);
+            System.out.println("The sum of " + binary1 + " and " + binary2 + " is " + result1);
         } finally {
             sc.close();
         }
@@ -44,6 +45,13 @@ public class BinaryAddition {
         }
 
         return result.reverse().toString(); // Reverse the result and return it
+    }
+
+    public static String addBinary1(String b1, String b2){
+        int n1 = Integer.parseInt(b1,2);
+        int n2 = Integer.parseInt(b2,2);
+        int sum = n1 + n2;
+        return Integer.toBinaryString(sum);
     }
 }
 

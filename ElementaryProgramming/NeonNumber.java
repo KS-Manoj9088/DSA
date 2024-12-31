@@ -7,6 +7,7 @@ public class NeonNumber {
         System.out.println("Enter a number: ");
         int n = sc.nextInt();
         System.out.println(n+" is Neon Number : "+isNeonNumber(n));
+        sc.close();
     }
     public static boolean isNeonNumber(int num){
         int num_squ = (int)Math.pow(num,2);
