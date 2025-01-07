@@ -44,7 +44,7 @@ public class FirstnLastIndex {
             int mid = low + (high - low) / 2;
 
             if (arr[mid] == target) {
-                result = mid; // Save the current index
+                result = mid; // Save the current index    // Ekkada 1st occurence vacchaka next SubArray lo check chestham.
                 low = mid + 1; // Move right to find the last occurrence
             } else if (arr[mid] < target) {
                 low = mid + 1;
