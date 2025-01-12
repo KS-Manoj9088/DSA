@@ -1,0 +1,81 @@
+Here’s a curated list of 50 problems to help you master the basics of hash tables and sets. These problems cover a range of difficulties and include key concepts like collisions, hash-based lookups, duplicate handling, and various operations using hash tables or sets. 
+
+---
+
+### **Easy Problems**
+1. Two Sum ([LeetCode #1](https://leetcode.com/problems/two-sum/))
+2. Contains Duplicate ([LeetCode #217](https://leetcode.com/problems/contains-duplicate/))
+3. Valid Anagram ([LeetCode #242](https://leetcode.com/problems/valid-anagram/))
+4. Intersection of Two Arrays ([LeetCode #349](https://leetcode.com/problems/intersection-of-two-arrays/))
+5. Intersection of Two Arrays II ([LeetCode #350](https://leetcode.com/problems/intersection-of-two-arrays-ii/))
+6. Happy Number ([LeetCode #202](https://leetcode.com/problems/happy-number/))
+7. Single Number ([LeetCode #136](https://leetcode.com/problems/single-number/))
+8. First Unique Character in a String ([LeetCode #387](https://leetcode.com/problems/first-unique-character-in-a-string/))
+9. Isomorphic Strings ([LeetCode #205](https://leetcode.com/problems/isomorphic-strings/))
+10. Longest Substring Without Repeating Characters ([LeetCode #3](https://leetcode.com/problems/longest-substring-without-repeating-characters/))
+
+---
+
+### **Medium Problems**
+11. Subarray Sum Equals K ([LeetCode #560](https://leetcode.com/problems/subarray-sum-equals-k/))
+12. Longest Palindrome ([LeetCode #409](https://leetcode.com/problems/longest-palindrome/))
+13. Group Anagrams ([LeetCode #49](https://leetcode.com/problems/group-anagrams/))
+14. Top K Frequent Elements ([LeetCode #347](https://leetcode.com/problems/top-k-frequent-elements/))
+15. Find All Anagrams in a String ([LeetCode #438](https://leetcode.com/problems/find-all-anagrams-in-a-string/))
+16. Longest Consecutive Sequence ([LeetCode #128](https://leetcode.com/problems/longest-consecutive-sequence/))
+17. Word Pattern ([LeetCode #290](https://leetcode.com/problems/word-pattern/))
+18. Count Substrings with Equal Number of 0s and 1s ([LeetCode #696](https://leetcode.com/problems/count-binary-substrings/))
+19. Find Duplicate Subtrees ([LeetCode #652](https://leetcode.com/problems/find-duplicate-subtrees/))
+20. Subarrays with K Different Integers ([LeetCode #992](https://leetcode.com/problems/subarrays-with-k-different-integers/))
+
+---
+
+### **Hard Problems**
+21. Minimum Window Substring ([LeetCode #76](https://leetcode.com/problems/minimum-window-substring/))
+22. Smallest Range Covering Elements from K Lists ([LeetCode #632](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/))
+23. Minimum Number of Refueling Stops ([LeetCode #871](https://leetcode.com/problems/minimum-number-of-refueling-stops/))
+24. Sliding Window Maximum ([LeetCode #239](https://leetcode.com/problems/sliding-window-maximum/))
+25. Count of Smaller Numbers After Self ([LeetCode #315](https://leetcode.com/problems/count-of-smaller-numbers-after-self/))
+26. Max Points on a Line ([LeetCode #149](https://leetcode.com/problems/max-points-on-a-line/))
+27. Concatenated Words ([LeetCode #472](https://leetcode.com/problems/concatenated-words/))
+28. Frog Jump ([LeetCode #403](https://leetcode.com/problems/frog-jump/))
+29. Random Pick with Weight ([LeetCode #528](https://leetcode.com/problems/random-pick-with-weight/))
+30. Maximum XOR of Two Numbers in an Array ([LeetCode #421](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/))
+
+---
+
+### **Practical Problems**
+31. Implement a HashMap (Custom HashMap Implementation)
+32. Implement a HashSet (Custom HashSet Implementation)
+33. Design a Phone Directory ([LeetCode #379](https://leetcode.com/problems/design-phone-directory/))
+34. Design a Leaderboard ([LeetCode #1244](https://leetcode.com/problems/design-a-leaderboard/))
+35. Design a Skiplist ([LeetCode #1206](https://leetcode.com/problems/design-skiplist/))
+36. Design a HashSet ([LeetCode #705](https://leetcode.com/problems/design-hashset/))
+37. Design a HashMap ([LeetCode #706](https://leetcode.com/problems/design-hashmap/))
+38. LRU Cache ([LeetCode #146](https://leetcode.com/problems/lru-cache/))
+39. LFU Cache ([LeetCode #460](https://leetcode.com/problems/lfu-cache/))
+40. Design Twitter ([LeetCode #355](https://leetcode.com/problems/design-twitter/))
+
+---
+
+### **Interview-Focused Problems**
+41. Valid Sudoku ([LeetCode #36](https://leetcode.com/problems/valid-sudoku/))
+42. Sudoku Solver ([LeetCode #37](https://leetcode.com/problems/sudoku-solver/))
+43. Find Duplicate Number ([LeetCode #287](https://leetcode.com/problems/find-the-duplicate-number/))
+44. Majority Element ([LeetCode #169](https://leetcode.com/problems/majority-element/))
+45. Majority Element II ([LeetCode #229](https://leetcode.com/problems/majority-element-ii/))
+46. Repeated DNA Sequences ([LeetCode #187](https://leetcode.com/problems/repeated-dna-sequences/))
+47. Count Distinct Elements in Every Window ([GeeksForGeeks](https://www.geeksforgeeks.org/count-distinct-elements-in-every-window-of-size-k/))
+48. Find All Duplicates in an Array ([LeetCode #442](https://leetcode.com/problems/find-all-duplicates-in-an-array/))
+49. Shortest Path Visiting All Nodes ([LeetCode #847](https://leetcode.com/problems/shortest-path-visiting-all-nodes/))
+50. Time Based Key-Value Store ([LeetCode #981](https://leetcode.com/problems/time-based-key-value-store/))
+
+---
+
+### How to Tackle These Problems:
+1. Start with **easy problems** to build confidence.
+2. Progress to **medium problems** to understand real-world use cases.
+3. Move to **hard problems** as a challenge once you’re comfortable with the basics.
+4. Implement hash tables and sets yourself for practical understanding.
+
+With consistent effort, you'll master the fundamentals of hash tables and sets! 😊

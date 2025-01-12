@@ -1,0 +1,95 @@
+Here’s a list of **50 problems** to help you master the basics of stacks. The problems are categorized by difficulty, starting from beginner-level and progressing to advanced-level challenges.
+
+---
+
+### **Beginner-Level Problems (Basic Stack Operations)**
+1. Implement a stack using arrays.
+2. Implement a stack using linked lists.
+3. Design a stack with `push`, `pop`, `top`, and `isEmpty` operations.
+4. Implement a stack that supports `getMin()` in \(O(1)\) time.
+5. Check for balanced parentheses in a string.
+6. Reverse a string using a stack.
+7. Evaluate a postfix expression.
+8. Convert an infix expression to postfix.
+9. Convert an infix expression to prefix.
+10. Implement two stacks in a single array.
+
+---
+
+### **Intermediate-Level Problems (Applications of Stacks)**
+11. Sort a stack using recursion.
+12. Check if a string of brackets is valid (LeetCode #20).
+13. Find the next greater element for each element in an array (LeetCode #496).
+14. Find the previous smaller element for each element in an array.
+15. Implement a stack that supports `max()` in \(O(1)\) time.
+16. Implement a stack that supports `mid()` in \(O(1)\) time and allows deletion of the middle element.
+17. Evaluate a prefix expression.
+18. Design a stack that supports push, pop, and retrieval of the second minimum element.
+19. Remove duplicate letters to get the lexicographically smallest result (LeetCode #316).
+20. Implement a monotonic increasing stack.
+
+---
+
+### **Stack and Queues Combined**
+21. Implement a queue using two stacks.
+22. Implement a stack using two queues.
+23. Implement a circular queue with a stack.
+24. Design a deque using stacks.
+25. Design a bounded blocking stack.
+26. Sliding window maximum (LeetCode #239).
+27. Decode a string with nested brackets (LeetCode #394).
+28. Basic calculator (with parentheses, +, -, *, /) (LeetCode #224).
+29. Basic calculator II (without parentheses) (LeetCode #227).
+30. Evaluate division (LeetCode #399).
+
+---
+
+### **Advanced-Level Problems (Stack Patterns in Complex Scenarios)**
+31. Largest rectangle in a histogram (LeetCode #84).
+32. Maximal rectangle (LeetCode #85).
+33. Trapping rainwater (LeetCode #42).
+34. Daily temperatures (LeetCode #739).
+35. Online stock span (LeetCode #901).
+36. Asteroid collision (LeetCode #735).
+37. Remove k digits to form the smallest number (LeetCode #402).
+38. Minimum add to make parentheses valid (LeetCode #921).
+39. Minimum remove to make parentheses valid (LeetCode #1249).
+40. Longest valid parentheses (LeetCode #32).
+
+---
+
+### **Competitive Programming Problems**
+41. Find the celebrity in \(O(n)\) using stacks.
+42. Check if the stack permutation is valid.
+43. Count the number of valid substrings of brackets.
+44. Find the largest rectangular area in a binary matrix using stacks.
+45. Find the maximum depth of nested parentheses in a string.
+46. Flatten a nested list iterator using a stack (LeetCode #341).
+47. Verify if a given sequence of operations is a valid stack sequence (LeetCode #946).
+48. Count the number of visible mountains (Google Kickstart).
+49. Design a data structure to support incrementing elements below a certain index efficiently.
+50. Decode string with multiple layers of nested parentheses (e.g., `"3[a2[c]]"` → `"accaccacc"`).
+
+---
+
+### **How to Approach This List**
+1. **Start Simple**: Begin with basic operations (problems 1–10) and gradually progress to intermediate and advanced topics.
+2. **Use Visual Tools**: Visualize stack operations using diagrams.
+3. **Understand Patterns**: Many advanced problems rely on monotonic stacks or backtracking-like behavior.
+4. **Practice on Platforms**:
+   - LeetCode
+   - GeeksforGeeks
+   - Codeforces
+   - HackerRank
+   - InterviewBit
+
+---
+
+### Recommended Study Timeline
+- **Week 1:** Problems 1–10.
+- **Week 2:** Problems 11–20.
+- **Week 3:** Problems 21–30.
+- **Week 4:** Problems 31–40.
+- **Week 5:** Problems 41–50.
+
+Feel free to ask for solutions or hints for any problem in this list! 😊

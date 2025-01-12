@@ -1,0 +1,83 @@
+Here’s a curated list of 50 problems to master **arrays basics**, ranging from easy to medium difficulty. These problems are grouped into categories to help you build skills systematically.
+
+---
+
+### **1. Basic Array Operations**
+1. Print elements of an array.
+2. Find the largest and smallest elements in an array.
+3. Calculate the sum and average of all elements.
+4. Reverse an array.
+5. Check if an array is sorted.
+6. Rotate an array by \( k \) positions.
+7. Find the second largest and second smallest elements.
+8. Remove duplicates from a sorted array.
+9. Count occurrences of a specific element in an array.
+10. Find the maximum and minimum difference between array elements.
+
+---
+
+### **2. Searching and Sorting**
+11. Implement binary search on a sorted array.
+12. Find the index of a target element in an array.
+13. Sort an array using bubble sort.
+14. Sort an array using insertion sort.
+15. Sort an array using merge sort.
+16. Sort an array using quicksort.
+17. Search for the first and last position of a target in a sorted array.
+18. Find the peak element in an array (an element greater than its neighbors).
+19. Search for a missing number in an array of size \( n \) containing numbers from 1 to \( n+1 \).
+20. Sort an array of 0s, 1s, and 2s without using extra space.
+
+---
+
+### **3. Two-Pointer Technique**
+21. Merge two sorted arrays.
+22. Find the pair of elements with a given sum in a sorted array.
+23. Move all zeros to the end of the array while maintaining the relative order of other elements.
+24. Find all unique triplets in an array that sum to zero.
+25. Remove duplicates from a sorted array in-place.
+26. Partition an array around a pivot (used in quicksort).
+27. Check if a subarray with a given sum exists.
+28. Find the maximum product of two integers in an array.
+29. Find the closest pair of numbers to a given target.
+30. Find the median of two sorted arrays.
+
+---
+
+### **4. Subarray and Sliding Window**
+31. Find the maximum sum of a subarray (Kadane's algorithm).
+32. Count the number of subarrays with a given sum.
+33. Find the length of the longest subarray with all unique elements.
+34. Find the minimum length subarray with a sum greater than or equal to \( k \).
+35. Count the number of subarrays with at least \( k \) distinct elements.
+36. Find the maximum sum of a subarray of size \( k \) (sliding window).
+37. Find the smallest subarray with a sum greater than \( x \).
+38. Count all subarrays with an equal number of 0s and 1s.
+39. Find the maximum product subarray.
+40. Find the maximum length of a subarray with a sum equal to \( k \).
+
+---
+
+### **5. Matrix Manipulation (Array of Arrays)**
+41. Print a matrix in a spiral order.
+42. Rotate a 2D matrix by 90 degrees clockwise.
+43. Transpose a square matrix.
+44. Find the maximum element in each row and column of a matrix.
+45. Perform matrix addition and subtraction.
+46. Find the diagonal sum of a square matrix.
+47. Check if a matrix is symmetric.
+48. Search for an element in a sorted 2D matrix.
+49. Perform matrix multiplication.
+50. Set entire rows and columns to zero if an element is zero (LeetCode #73).
+
+---
+
+### **How to Practice:**
+1. Solve problems from coding platforms like [LeetCode](https://leetcode.com/), [GeeksforGeeks](https://www.geeksforgeeks.org/), or [HackerRank](https://www.hackerrank.com/).
+2. Focus on understanding the **time complexity** and **space complexity** of your solutions.
+3. Try to solve problems without looking at hints or solutions. Use hints only after making an honest effort.
+4. Revisit problems you struggled with after a few days to reinforce your learning.
+
+---
+
+Would you like help with resources or solving any specific problem from this list? 😊

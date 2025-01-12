@@ -1,0 +1,89 @@
+Here's a curated list of **50 queue problems** to help you master the basics of queues, including various use cases, types (linear queues, circular queues, priority queues, dequeues), and real-world applications. These problems are divided into **easy**, **medium**, and **advanced** categories.
+
+---
+
+### **Easy (Basic Queue Operations)**
+1. Implement a queue using an array.
+2. Implement a queue using a linked list.
+3. Implement a queue using two stacks.
+4. Implement a stack using two queues.
+5. Check if a given queue is empty or full (array-based implementation).
+6. Enqueue and dequeue operations in a circular queue.
+7. Reverse a queue using a stack.
+8. Reverse the first \(k\) elements of a queue.
+9. Generate binary numbers from 1 to \(n\) using a queue.
+10. Implement a priority queue (min-heap or max-heap).
+11. Check if two queues are identical.
+12. Find the first non-repeating character in a stream using a queue.
+13. Perform level-order traversal of a binary tree using a queue.
+14. Print the first \(k\) elements of a Fibonacci sequence using a queue.
+15. Implement a deque (double-ended queue) using an array.
+
+---
+
+### **Medium (Applications and Variations)**
+16. Implement an LRU Cache using a queue and a hashmap.
+17. Find the maximum element in every sliding window of size \(k\).
+18. Implement a circular deque.
+19. Interleave the first half of a queue with the second half.
+20. Sort elements of a queue using a stack.
+21. Check if a given sequence of operations is valid for a queue.
+22. Find the minimum time to finish all jobs with different priorities using a priority queue.
+23. Merge \(k\) sorted lists using a priority queue.
+24. Simulate a ticket counter using a queue.
+25. Implement a basic task scheduler using a priority queue.
+26. Rotate a queue \(k\) times to the right.
+27. Check if all levels of a binary tree are anagrams using a queue.
+28. Implement a queue using a circular array without extra space.
+29. Print the maximum of all subarrays of size \(k\).
+30. Design a data structure that supports push, pop, and find-min in \(O(1)\).
+
+---
+
+### **Advanced (Challenging and Real-world Applications)**
+31. Implement a sliding puzzle solver using BFS and a queue.
+32. Find the shortest path in a binary matrix using BFS.
+33. Implement a snake-and-ladder game solver using a queue.
+34. Simulate the Hot Potato game using a queue.
+35. Design a message queue system (producer-consumer problem).
+36. Find the time required to process all tasks in a CPU scheduling problem using a queue.
+37. Implement a cache with frequency-based eviction policy (LFU Cache).
+38. Reorganize a string such that no two adjacent characters are the same using a priority queue.
+39. Find the shortest path in a maze using a queue.
+40. Implement an autocomplete system using a queue and trie.
+41. Simulate a printer job queue with priority-based ordering.
+42. Decode a string using a queue (e.g., "3[a2[bc]]" → "abcbcabcbcabcbc").
+43. Count the number of islands in a grid using BFS and a queue.
+44. Solve the "word ladder" problem using BFS and a queue.
+45. Find the number of connected components in a graph using BFS.
+46. Implement a real-time event scheduler using a priority queue.
+47. Simulate an elevator system with multiple floors using a priority queue.
+48. Design a bounded blocking queue for producer-consumer scenarios.
+49. Check if a binary tree is a complete binary tree using a queue.
+50. Solve the "Zigzag Level Order Traversal" problem of a binary tree using a queue.
+
+---
+
+### Resources to Practice
+- **LeetCode Problems**:
+  - Sliding Window Maximum (#239)
+  - Task Scheduler (#621)
+  - Design Circular Queue (#622)
+- **HackerRank**:
+  - Queue using Two Stacks
+  - Castle on the Grid
+- **GeeksforGeeks**:
+  - Reverse a Queue
+  - Implement LRU Cache
+- **Codeforces**: Problems related to simulations often involve queues.
+
+---
+
+### How to Approach:
+1. **Start with easy problems** to understand the fundamentals.
+2. Gradually move to **medium problems** that involve applications.
+3. Tackle the **advanced problems** once you're comfortable with BFS, priority queues, and deque operations.
+4. Test edge cases (empty queue, single element, large inputs, etc.).
+5. Analyze the **time and space complexity** of your solutions. 
+
+Would you like detailed solutions or hints for any specific problem? 😊
