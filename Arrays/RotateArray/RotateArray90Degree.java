@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.RotateArray;
 //import java.util.Scanner;
 
 public class RotateArray90Degree{
