@@ -1,4 +1,4 @@
-package BackTrackingBasics;
+
 
 public class countPathsAllWays {
 

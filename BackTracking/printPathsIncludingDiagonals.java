@@ -1,5 +1,3 @@
-package BackTrackingBasics;
-
 import java.util.ArrayList;
 
 public class printPathsIncludingDiagonals {
