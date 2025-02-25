@@ -1,4 +1,4 @@
-package BackTracking;
+package BackTrackingBasics;
 
 public class pathWithRestrictions {
 

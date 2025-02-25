@@ -1,4 +1,4 @@
-package BackTracking;
+package BackTrackingBasics;
 
 public class countpaths{
     public static void main(String[] args) {
