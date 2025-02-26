@@ -14,7 +14,10 @@ public class DiceRollsToTarget {
         }
          */
 
-         diceFace("", target, 3);
+        //diceFace("", target, 3);
+
+        ArrayList<ArrayList<String>> res = diceRolls2("", target);
+        System.out.println(res.toString());
     }
 
     static void diceRolls(String p,int target){    //For 6 face standard dice.
@@ -50,6 +53,21 @@ public class DiceRollsToTarget {
         for(int i = 1;i <=face && i <= target;i++){
             diceFace(p+" "+i, target-i, face);
         }
+    }
+
+    static ArrayList<ArrayList<String>> diceRolls2(String p,int target){
+        ArrayList<ArrayList<String>> outer = new ArrayList<>();
+        if(target == 0){
+            ArrayList<String> inner = new ArrayList<>();
+            inner.add(p.substring(0, p.length()-1));
+            outer.add(inner);
+            return outer;
+        }
+
+        for(int i = 1;i<=6 && i<=target;i++){
+            outer.addAll(diceRolls2(p+i+",", target-i));
+        }
+        return outer;
     }
 }
 
