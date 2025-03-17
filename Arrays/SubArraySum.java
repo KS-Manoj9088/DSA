@@ -16,7 +16,7 @@ public class SubArraySum {
 				l1.add(sum);
 			}
 		}
-		Collections.sort(l1);
+		//Collections.sort(l1);
 		System.out.println(l1);
 		for(int i = 0;i<l1.size();i++)
 		{
