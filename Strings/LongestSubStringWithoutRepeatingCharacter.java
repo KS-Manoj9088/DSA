@@ -1,5 +1,7 @@
 package Strings;
 
+import java.util.HashMap;
+
 public class LongestSubStringWithoutRepeatingCharacter {
     
 
@@ -32,5 +34,36 @@ public class LongestSubStringWithoutRepeatingCharacter {
           return longestSubstring.length();
         
     }
+
+
+    public static int lengthOfLongestSubstringOptimal(String s) {
+        int maxLength = 0;
+        int left = 0;
+        int n = s.length();
+
+        HashMap<Character, Integer> hm = new HashMap<>();
+        String longestString = "";
+        for(int  right = 0; right < n; right++){
+            char ch = s.charAt(right);
+            hm.put(ch, hm.getOrDefault(ch,0)+1);
+
+            while(hm.get(ch)>1){
+                char ch1 = s.charAt(left);
+                hm.put(ch1, hm.get(ch1)-1);
+                left++;
+            }
+
+            if(right-left+1>maxLength){
+                maxLength = right-left+1;
+                longestString = s.substring(left, right+1);
+            }
+        }
+
+        System.out.println(longestString);
+        return maxLength;
+    }
     
+    public static void main(String[] args) {
+        System.out.println(lengthOfLongestSubstringOptimal("abcabcbb")); // 3
+    }
 }
