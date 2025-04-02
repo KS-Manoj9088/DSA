@@ -13,8 +13,6 @@
   * size - to get the number of elements in the stack. 
   */
 
-  package Stacks;
-
   public class StacksUsingArray {
       private int maxSize; // Maximum size of the stack
       private int[] stackArray; // Array to hold the stack elements

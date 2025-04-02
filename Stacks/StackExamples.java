@@ -1,4 +1,3 @@
-package Stacks;
 import java.util.Stack;
 import java.util.EmptyStackException;
 

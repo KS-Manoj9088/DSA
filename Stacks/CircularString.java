@@ -1,5 +1,3 @@
-package Stacks;
-
 public class CircularString {
     public static void main(String[] args) {
         String sen = "leetcode el";

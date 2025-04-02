@@ -1,5 +1,3 @@
-package Stacks;
-
 public class EmptyStackException extends Exception{
     public String message;
 
