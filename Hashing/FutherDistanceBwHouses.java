@@ -3,8 +3,7 @@ package Hashing;
 public class FutherDistanceBwHouses{
     public static void main(String[] args) {
         int arr[] = {1,8,3,8,3};
-
-        int maxDistance = new FutherDistanceBwHouses().maxDistance(arr);
+        int maxDistance = new FutherDistanceBwHouses().maxDistance2(arr);
         System.out.println("Maximum distance between two houses is " + maxDistance);
     }
 
@@ -26,7 +25,7 @@ public class FutherDistanceBwHouses{
         int distEnd = 0;
 
         int len = colors.length;
-        for(int i = 0; i < len; i++){
+        for(int i = 0; i < len;){
             for(int j = len-1; j >= 0; j--){
                 if(colors[j]!=colors[i]){
                     distStart = Math.abs(i-j);
@@ -36,7 +35,7 @@ public class FutherDistanceBwHouses{
             break;
         }
 
-        for(int i = len-1; i>=0; i--){
+        for(int i = len-1; i>=0; ){
             for(int j = 0; j < len; j++){
                 if(colors[i]!=colors[j]){
                     distEnd = Math.abs(i-j);
