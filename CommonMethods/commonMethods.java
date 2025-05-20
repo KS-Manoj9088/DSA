@@ -2,7 +2,7 @@ package CommonMethods;
 import java.util.*;
 
 public class commonMethods{
-    
+    Scanner sc =new Scanner(System.in);
     public static void printArray(int[] arr)
     {
         for(int i = 0; i < arr.length; i++)
@@ -48,6 +48,14 @@ public class commonMethods{
             temp = temp / 10;
         }
         return count;
+    }
+
+    public int[] readArrayValues(int[] arr,int n){
+
+        for(int i = 0;i < n;i++){
+            arr[i] = sc.nextInt();
+        }
+        return arr;
     }
 
 }
