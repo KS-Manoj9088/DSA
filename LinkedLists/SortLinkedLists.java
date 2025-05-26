@@ -1,5 +1,4 @@
 package LinkedLists;
-import CommonMethods.*;
 
 public class SortLinkedLists extends SinglyLinkedList{
     public static void main(String[] args) {
@@ -10,7 +9,7 @@ public class SortLinkedLists extends SinglyLinkedList{
         s1.insert(4, 70);
         s1.insert(5, 50);
         s1.insert(6, 30);
-        s1.insert(7, 40);
+        s1.insert(7, 0);
         s1.insert(8, 10);
         s1.insert(9, 20);
         s1.printList();
@@ -18,8 +17,8 @@ public class SortLinkedLists extends SinglyLinkedList{
         System.out.println("Sorting the linked list");
 
         SortLinkedLists s2 = new SortLinkedLists();
-        Node sortedHead = s2.sortList(s1.head);
-        s2.head = sortedHead;
+        Node sortedHead = s2.sortList(head);
+        head = sortedHead;
         s2.printList();    
     }
 
