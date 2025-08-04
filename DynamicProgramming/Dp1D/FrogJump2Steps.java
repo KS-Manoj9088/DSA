@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.Dp1D;
 import java.util.*;
 
 public class FrogJump2Steps {

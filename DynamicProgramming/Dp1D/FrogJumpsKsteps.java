@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DynamicProgramming.Dp1D;
 
 public class FrogJumpsKsteps{
     public static void main(String[] args) {
