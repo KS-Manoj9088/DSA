@@ -3,8 +3,8 @@ package DynamicProgramming.DpStrings;
 public class LCSTabulation {
 
     public static void main(String[] args) {
-        String str1 = "abcde";
-        String str2 = "bdgfe";
+        String str1 = "brute";
+        String str2 = "groot";
 
         int n = str1.length();
         int m = str2.length();

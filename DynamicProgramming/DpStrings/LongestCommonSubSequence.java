@@ -3,8 +3,8 @@ import java.util.*;
 
 public class LongestCommonSubSequence {
     public static void main(String[] args) {
-        String s1 = "abc";
-        String s2 = "bdc";
+        String s1 = "brute";
+        String s2 = "groot";
 
         int n = s1.length();
         int m = s2.length();

@@ -3,7 +3,7 @@ package DynamicProgramming.DpStrings;
 public class ShortestCommonSuperSequence {
     public static void main(String[] args) {
         Solution s = new Solution();
-        String superSequenceString = s.shortestCommonSupersequence("brute", "groot");
+        String superSequenceString = s.shortestCommonSupersequence("ace", "bce");
         System.out.println(superSequenceString);
     }
 }
@@ -38,7 +38,7 @@ class Solution {
                 sb.append(str1.charAt(i - 1));
                 i--;
                 j--;
-            } else if (dp[i - 1][j] > dp[i][j - 1]) {
+            } else if (dp[i - 1][j] >= dp[i][j - 1]) {
                 // Take character from str1
                 sb.append(str1.charAt(i - 1));
                 i--;
