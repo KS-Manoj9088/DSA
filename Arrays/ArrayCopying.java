@@ -1,4 +1,5 @@
 package Arrays;
+import java.util.*;
 
 public class ArrayCopying {
 
@@ -7,6 +8,13 @@ public class ArrayCopying {
 		int[] b1;
 		b1 = a1;
 		for(int i : b1)
+		{
+			System.out.println(i);
+		}
+
+		int[] c1 = Arrays.copyOf(b1, 5);
+
+		for(int i : c1)
 		{
 			System.out.println(i);
 		}
